@@ -157,7 +157,7 @@ section {
 }
 
 .home-img img {
-  animation: floatingImg 3s ease-in-out infinite;
+  animation: floatingImg 2s ease-in-out infinite;
 }
 
 @keyframes floatingImg {
