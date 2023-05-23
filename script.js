@@ -46,7 +46,7 @@ window.onscroll = () => {
 /*==================== scroll reveal ====================*/
 ScrollReveal({
   reset: true,
-  distance: "100px",
+  distance: "80px",
   duration: 2000,
   delay: 100,
 });
@@ -56,13 +56,11 @@ ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(".home-img img", { origin: "right" });
 
 // About
-ScrollReveal().reveal(".about-img img", { origin: "left" });
-ScrollReveal().reveal(".about-content", { origin: "right" });
+ScrollReveal().reveal(".about-img img", { origin: "top" });
+ScrollReveal().reveal(".about-content", { origin: "bottom" });
 
 // Services
-ScrollReveal().reveal(".box1", { origin: "left" });
-ScrollReveal().reveal(".box2", { origin: "bottom" });
-ScrollReveal().reveal(".box3", { origin: "right" });
+ScrollReveal().reveal(".services-container", { origin: "bottom" });
 
 // Portfolio
 ScrollReveal().reveal(".portfolio-container", { origin: "bottom" });

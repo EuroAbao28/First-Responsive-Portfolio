@@ -165,7 +165,7 @@ section {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(2.4rem);
+    transform: translateY(-2.4rem);
   }
   100% {
     transform: translateY(0);
@@ -226,6 +226,7 @@ section {
   flex: 1 1 30rem;
   background-color: var(--second-bg-color);
   padding: 3rem 2rem 4rem;
+  box-sizing: border-box;
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid var(--bg-color);
