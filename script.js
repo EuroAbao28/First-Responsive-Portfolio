@@ -70,7 +70,7 @@ ScrollReveal().reveal(".contact form", { origin: "bottom" });
 
 /*==================== Typed js ====================*/
 const typed = new Typed(".multiple-text", {
-  strings: ["4th Student", "Frontend Developer", "Backend Developer"],
+  strings: ["4th Year Student", "Frontend Developer", "Backend Developer"],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
